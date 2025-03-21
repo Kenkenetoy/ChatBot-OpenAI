@@ -1,34 +1,18 @@
-# Coding Nexus ChatBot
+# 🚀 Coding Nexus ChatBot
 
-Coding Nexus ChatBot uses the OpenAI API to create a chatbot.
+Coding Nexus ChatBot is an AI-powered chatbot built using the **OpenAI API**.  
+This project was **forked from a tutorial** and expanded to enhance the learning experience while providing a simple chatbot API.
 
-## Installation
+---
 
-Get your API key from OpenAI and paste the key into the ```api/.env``` file
+## 📌 Installation
 
-Use the package manager [npm](https://nodejs.org/) to install the required packages.
+### 1️⃣ Get Your OpenAI API Key
 
-```bash
-cd api
-npm i
-```
+1. Go to [OpenAI API Keys](https://platform.openai.com/account/api-keys).
+2. Generate a new API key.
+3. Create a `.env` file inside the `api/` directory and add your key:
 
-## Usage
-
-```bash
-cd api
-node .
-```
-
-## Tutorials
-
-[API Tutorial - Create a Chatbot API with OpenAI in less than 7 minutes](https://youtu.be/Q6PEC4nzldU)
-
-[App Tutorial - Create a Chatbot with OpenAI](https://youtu.be/Q_NyjJLvMAU)
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+   ```ini
+   OPENAI_API_KEY=your-api-key-here
+   ```
